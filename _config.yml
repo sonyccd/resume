@@ -20,12 +20,33 @@ twitter: '@bwbaze'
 #Content
 about: ""
 
+#For each topic below you can add more than one thing. Each entry is divided by the -. For example each entry in the
+#skill is made up of a name and level.
+
 experiences:
   - name: "Research Assistant"
-    time: "2015-Now"
+    time: "May 2015 - Now"
     company: "University of Georgia"
     description: "My work is assisting in the development of the robotic technology required to autonomously
     collect data to monitor crops in a field or orchard."
+
+  - name: "Research Intern"
+    time: "Jun 2014 - Dec 2014"
+    comapny: "Oak Ridge National Laboratory"
+    description: "Worked in the Computational Data Analytic group solving some of the countries most pressing
+    problems of cyber security and power reliability."
+
+  - name: "Teaching Assistant"
+    time: "May 2012 - May 2014"
+    compnay: "Georgia Southern University"
+    description: "Teaching Assistant for the department of Computer Science. This entails grading papers for
+    the professors I TA for, supervising labs, and on occasion giving lecture."
+
+  - name: "Undergraduate Research Assistant"
+    time: "Jan 2012 - May 2014"
+    comapny: "Georgia Southern University"
+    description: "Conducted research in the fields of Cyber Physical Systems, High Performance Computing,
+    Robotics, and Operating Systems."
 
 projects:
   - name: "Jack-UI"
