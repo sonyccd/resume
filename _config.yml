@@ -17,3 +17,11 @@ linkedin:
 github: sonyccd
 twitter: '@bwbaze'
 
+skills:
+  - name: ROS
+    level: 98%
+  - name: Python
+    level: 50%
+
+
+
