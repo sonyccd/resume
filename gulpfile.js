@@ -6,6 +6,7 @@ var sass = require('gulp-sass');
 var plumber = require('gulp-plumber');
 var cp = require('child_process');
 var imagemin = require('gulp-imagemin');
+var lessToScss = require('gulp-less-to-scss');
 var browserSync = require('browser-sync');
 
 var jekyllCommand = (/^win/.test(process.platform)) ? 'jekyll.bat' : 'jekyll';
@@ -64,7 +65,6 @@ gulp.task('imagemin', function() {
 gulp.task('js', function(){
   return gulp.src('src/js/**/*.js')
       .pipe(plumber())
-      .pipe(modernizr())
       .pipe(concat('main.js'))
       .pipe(uglify())
       .pipe(gulp.dest('assets/js/'))
