@@ -2,14 +2,6 @@
   <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
   <div class="skillset">
 
-    <div class="item">
-      <h3 class="level-title">Python &amp; Django</h3>
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="98%">
-        </div>
-      </div>
-    </div>
-
     {% for skill in site.skills %}
     <div class="item">
       <h3 class="level-title">{{skill.name}}</h3>
@@ -20,4 +12,5 @@
     </div>
     {% endfor %}
   </div>
+
 </section>

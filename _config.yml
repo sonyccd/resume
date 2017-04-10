@@ -1,7 +1,7 @@
 
 title: Resume
 url: 'http://webjeda.com'
-baseurl: ''
+baseurl: '/resume'
 
 
 #Profile information
@@ -19,9 +19,13 @@ twitter: '@bwbaze'
 
 skills:
   - name: ROS
-    level: 98%
+    level: 90%
   - name: Python
-    level: 50%
+    level: 85%
+  - name: C++
+    level: 75%
+  - name: Javascript
+    level: 75%
 
 
 
