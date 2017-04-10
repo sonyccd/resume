@@ -17,6 +17,23 @@ linkedin:
 github: sonyccd
 twitter: '@bwbaze'
 
+#Content
+about: "Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit. You can download this
+free resume/CV template here. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et
+magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+
+experiences:
+  - name: "Research Assistant"
+    time: "2015-Now"
+    company: "University of Georgia"
+    description: "My work is assisting in the development of the robotic technology required to autonomously
+    collect data to monitor crops in a field or orchard."
+
+projects:
+  - name: "Jack-UI"
+    description: "A web based field robot management tool"
+    link:
+
 skills:
   - name: ROS
     level: 90%
