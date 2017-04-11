@@ -25,6 +25,8 @@ education:
   - degree: "BS in Computer Science"
     school: "Georgia Southern University"
     time: "2010 - 2014"
+    
+interests: ["caving", "scuba diving", "running"]
 
 #Content
 about: ""
