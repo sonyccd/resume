@@ -63,14 +63,21 @@ projects:
   - name: "Jack-UI"
     description: "A web based field robot management tool"
     link: "https://github.com/sonyccd/jack-ui"
+    
+  - name: "Resume"
+    description: "A web resume built with Jekyll and hosted on GitHub. (This thing!)"
+    link: "https://github.com/sonyccd/resume"
 
 skills:
   - name: ROS
     level: 90%
+    
   - name: Python
     level: 85%
+    
   - name: C++
     level: 75%
+    
   - name: Javascript
     level: 75%
 
