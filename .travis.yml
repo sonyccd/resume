@@ -4,7 +4,7 @@ rvm:
 before_install:
   - npm install
 install: gem install jekyll
-script: gulp
+script: gulp test
 
 notifications:
   email: false
