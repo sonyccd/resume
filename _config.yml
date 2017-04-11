@@ -21,6 +21,10 @@ education:
   - degree: "MS in Computer Science"
     school: "University of Georgia"
     time: "2015 - 2018"
+    
+  - degree: "BS in Computer Science"
+    school: "Georgia Southern University"
+    time: "2010 - 2014"
 
 #Content
 about: ""
