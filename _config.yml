@@ -51,7 +51,7 @@ experiences:
 projects:
   - name: "Jack-UI"
     description: "A web based field robot management tool"
-    link:
+    link: "https://github.com/sonyccd/jack-ui"
 
 skills:
   - name: ROS
