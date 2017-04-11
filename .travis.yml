@@ -2,6 +2,7 @@ language: ruby
 rvm:
   - 2.4.1
 before_install:
+  - nvm install stable
   - npm install -g npm@next
   - npm install
 install: gem install jekyll
