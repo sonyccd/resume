@@ -1,8 +1,8 @@
 <div class="interests-container container-block">
   <h2 class="container-block-title">Interests</h2>
   <ul class="list-unstyled interests-list">
-    <li>Caving</li>
-    <li>Running</li>
-    <li>Cooking</li>
+    {% for interest in site.interests %}
+    <li>{{interest}}</li>
+    {% endfor %}
   </ul>
 </div><!--//interests-->
