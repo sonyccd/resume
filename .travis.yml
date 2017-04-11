@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+  - 2.4.1
+before_install:
+  - npm install
+install: gem install jekyll
+script: gulp
+
+notifications:
+  email: false
