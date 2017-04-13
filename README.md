@@ -22,3 +22,5 @@ This is a gulp node.js project so you will need to go a little bit more to make 
 3. After that you will need to install jekyll. I recommend using a environment manager such as [rbenv](https://github.com/rbenv/rbenv).
 4. Now install jekyll by following these instruction [here](https://jekyllrb.com/docs/installation/)
 5. Once everything is installed you need to build the site. To do this run ```gulp```. This will also start the local server and open a browser window for it.
+
+Credit to [online-cv](https://github.com/sharu725/online-cv) for the original styles!
