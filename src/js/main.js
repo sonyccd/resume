@@ -10,19 +10,14 @@ jQuery(document).ready(function ($) {
   });
 });
 
-function demoFromHTML() {
+function downloadPDF() {
   var pdf = new jsPDF('p', 'pt', 'letter');
-  // source can be HTML-formatted string, or a reference
-  // to an actual DOM element from which the text will be scraped.
   source = $('body')[0];
 
-  // we support special element handlers. Register them with jQuery-style
-  // ID selector for either ID or node name. ("#iAmID", "div", "span" etc.)
-  // There is no support for any other type of selectors
-  // (class, of compound) at this time.
+
   specialElementHandlers = {
     // element with id of "bypass" - jQuery style selector
-    '#bypassme': function (element, renderer) {
+    '#pdfbypass': function (element, renderer) {
       // true = "handled elsewhere, bypass text extraction"
       return true
     }
@@ -46,7 +41,7 @@ function demoFromHTML() {
       function (dispose) {
         // dispose: object with X, Y of the last line add to the PDF
         //          this allow the insertion of new lines after html
-        pdf.save('Test.pdf');
+        pdf.save('resume.pdf');
       }, margins
   );
 }
