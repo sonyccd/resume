@@ -68,13 +68,32 @@ projects:
     description: "A web resume built with Jekyll and hosted on GitHub. (This thing!)"
     link: "https://github.com/sonyccd/resume"
 
+  - name: "Whitney"
+    description: "Counts cotton bolls from images to estimate crop yield"
+    link: "https://github.com/sonyccd/whitney"
+
+  - name: "Red Rover Firmware"
+    description: "ROS Arduino firmware for Red Rover autonomous tractor"
+    link: "https://github.com/sonyccd/red-rover-firmware"
+
+  - name: "Crop Row Follow"
+    description: "ROS node for detecting and following the rows in a row crop"
+    link: "https://github.com/sonyccd/crop_row_follow"
+
+  - name: "Black Fish"
+    description: "Automated malware classification system with spark"
+    link: "https://github.com/snakes-in-the-box/blk-fish"
+
 skills:
   - name: ROS
     level: 90%
     
   - name: Python
     level: 85%
-    
+
+  - name: Scikit-Image
+    level: 80%
+
   - name: C++
     level: 75%
     
