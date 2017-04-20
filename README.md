@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/sonyccd/resume.svg?branch=master)](https://travis-ci.org/sonyccd/resume)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c97bb7af2b6e4a449825a9fe307488db)](https://www.codacy.com/app/bwbaze/resume?utm_source=github.com&utm_medium=referral&utm_content=sonyccd/resume&utm_campaign=badger)
 [![Dependencies](https://david-dm.org/sonyccd/resume.svg)](https://david-dm.org/sonyccd/resume)
+[![Known Vulnerabilities](https://snyk.io/test/github/sonyccd/resume/badge.svg)](https://snyk.io/test/github/sonyccd/resume)
 
 This is a simple jekyll theme for a nice resume. It is created from the sinlge config.yml file. It will also generate a PDF (still new feature and it does not format well) with a click of the button on the bottom. I made this because I needed a better resume and did not want to type one. Feel free to use this!
 
