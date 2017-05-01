@@ -10,7 +10,7 @@ tagline: Robotics and computer vision developer that loves web apps
 pic: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
-email:
+email: bwbazemore AT uga DOT edu
 phone:
 website: bradbazemore.com #do not add http://
 linkedin: bradfordbazemore
@@ -18,10 +18,6 @@ github: sonyccd
 twitter: '@bwbaze'
 
 education:
-  - degree: "MS in Computer Science"
-    school: "University of Georgia"
-    time: "2015 - 2018"
-    
   - degree: "BS in Computer Science"
     school: "Georgia Southern University"
     time: "2010 - 2014"
@@ -92,19 +88,16 @@ skills:
   - name: Python
     level: 85%
 
-  - name: Scikit-Image
+  - name: Scikit-Image/OpenCV
     level: 80%
 
-  - name: C++
+  - name: C/C++
     level: 75%
     
-  - name: Javascript
+  - name: Javascript/HTML/CSS
     level: 75%
     
-  - name: C
-    level: 70%
-    
-  - name: Gulp
+  - name: Scala
     level: 60%
 
 
