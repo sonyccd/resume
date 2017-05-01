@@ -1,8 +1,8 @@
 
 # to test set the url to localhost and the base url blank
 title: Resume
-url: 'https://sonyccd.github.io/'
-baseurl: 'resume'
+url: 'https://sonyccd.github.io'
+baseurl: '/resume'
 
 
 #Profile information
