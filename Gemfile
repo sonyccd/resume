@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 gem 'github-pages',
-gen 'jemoji',
+gem 'jemoji',
 group: :jekyll_plugins
