@@ -7,6 +7,9 @@
 
 This is a simple jekyll theme for a nice resume. It is created from the sinlge config.yml file. It will also generate a PDF (still new feature and it does not format well) with a click of the button on the bottom. I made this because I needed a better resume and did not want to type one. Feel free to use this!
 
+### New feature!
+Added emojies :smile::thumbsup::clap::confetti_ball::tada:
+
 ## Getting started
 This is a jekyll site so it runs in github as is.
 

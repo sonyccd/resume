@@ -1,9 +1,15 @@
-
+# You can use emojies now!
 # to test set the url to localhost and the base url blank
-title: Resume
-url: 'https://sonyccd.github.io'
-baseurl: '/resume'
+gems:
+  - jemoji
 
+title: Resume
+# Use for deploy to github
+#url: 'https://sonyccd.github.io'
+#baseurl: '/resume'
+# Use for local testing
+url: 'localhost'
+baseurl:  ''
 
 #Profile information
 name: Brad Bazemore
@@ -63,7 +69,7 @@ projects:
     link: "https://github.com/sonyccd/jack-ui"
     
   - name: "Resume"
-    description: "A web resume built with Jekyll and hosted on GitHub. (This thing!)"
+    description: " :+1: A web resume built with Jekyll and hosted on GitHub. (This thing!)"
     link: "https://github.com/sonyccd/resume"
 
   - name: "Whitney"
