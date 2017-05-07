@@ -5,6 +5,8 @@
 [![Dependencies](https://david-dm.org/sonyccd/resume.svg)](https://david-dm.org/sonyccd/resume)
 [![Known Vulnerabilities](https://snyk.io/test/github/sonyccd/resume/badge.svg)](https://snyk.io/test/github/sonyccd/resume)
 
+![Logo](https://raw.githubusercontent.com/sonyccd/resume/master/resume-logo.jpg)
+
 This is a simple jekyll theme for a nice resume. It is created from the sinlge config.yml file. It will also generate a PDF (still new feature and it does not format well) with a click of the button on the bottom. I made this because I needed a better resume and did not want to type one. Feel free to use this!
 
 ### New feature!
