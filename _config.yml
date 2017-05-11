@@ -92,6 +92,9 @@ skills:
   - name: ROS
     level: 90%
     
+  - name: Linux
+    level: 90%
+    
   - name: Python
     level: 85%
 
@@ -107,10 +110,5 @@ skills:
   - name: Scala
     level: 60%
     
-  - name: Angular2
+  - name: Angular2/TypeScript
     level: 40%
-  
-  - name: TypeScript
-    level: 40%
-
-
