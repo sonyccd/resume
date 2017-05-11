@@ -5,11 +5,11 @@ gems:
 
 title: Resume
 # Use for deploy to github
-url: 'https://sonyccd.github.io'
-baseurl: '/resume'
+#url: 'https://sonyccd.github.io'
+#baseurl: '/resume'
 # Use for local testing
-#url: 'localhost'
-#baseurl:  ''
+url: 'localhost'
+baseurl:  ''
 
 #Profile information
 name: Brad Bazemore
