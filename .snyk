@@ -19,3 +19,6 @@ patch:
         patched: '2017-04-20T13:56:26.109Z'
     - browser-sync > socket.io > socket.io-client > engine.io-client > ws:
         patched: '2017-04-20T13:56:26.109Z'
+  'npm:qs:20170213':
+    - browser-sync > qs:
+        patched: '2017-05-17T00:23:43.287Z'
