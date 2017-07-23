@@ -39,6 +39,10 @@ about: "Independent and self-motivated developer with experience in IoT, Robotic
 #skill is made up of a name and level.
 
 experiences:
+  - name: "Back-End Developer"
+    time: "July 2017- Now"
+    company: "Pendo.io"
+
   - name: "Developer"
     time: "May 2015 - Jun 2017"
     company: "University of Georgia"
@@ -93,22 +97,25 @@ skills:
     level: 90%
     
   - name: Linux
-    level: 90%
+    level: 80%
+    
+  - name: Go
+    level: 70%
     
   - name: Python
-    level: 85%
+    level: 65%
 
   - name: Scikit-Image/OpenCV
-    level: 80%
+    level: 60%
 
   - name: C/C++
-    level: 75%
+    level: 60%
     
   - name: Javascript/HTML/CSS
-    level: 75%
+    level: 50%
     
   - name: Scala
-    level: 60%
+    level: 40%
     
   - name: Angular2/TypeScript
     level: 40%
