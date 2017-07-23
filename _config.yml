@@ -13,7 +13,7 @@ baseurl: '/resume'
 
 #Profile information
 name: Brad Bazemore
-tagline: Robotics and computer vision developer that loves web apps
+tagline: Go web developer with a love for open source and robotics
 pic: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
