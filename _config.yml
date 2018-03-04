@@ -95,29 +95,23 @@ projects:
     link: "https://github.com/snakes-in-the-box/blk-fish"
 
 skills:
-  - name: ROS
-    level: 90%
-    
   - name: Linux
-    level: 80%
+    level: 70%
     
   - name: Go
-    level: 70%
+    level: 80%
+   
+  - name: Google Cloud (Datastore, App Engine, etc...)
+    level: 50%
     
   - name: Python
     level: 65%
 
-  - name: Scikit-Image/OpenCV
-    level: 60%
+  - name: Firebase
+    level: 45%
 
   - name: C/C++
-    level: 60%
+    level: 50%
     
   - name: Javascript/HTML/CSS
     level: 50%
-    
-  - name: Scala
-    level: 40%
-    
-  - name: Angular2/TypeScript
-    level: 40%
