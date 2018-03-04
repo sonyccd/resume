@@ -11,7 +11,7 @@
   "author": "Brad Bazemore",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^4.0.0",
     "browser-sync": "^2.18.6",
     "fontawesome": "^4.7.2",
     "gulp": "^3.9.1",
