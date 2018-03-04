@@ -6,7 +6,7 @@ before_install:
   - npm install -g npm@next
   - npm install -g gulp-cli
   - npm install
-install: gem install jekyll
+install: bundle install
 script: gulp test
 
 notifications:
