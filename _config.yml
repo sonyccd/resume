@@ -13,7 +13,7 @@ baseurl: '/resume'
 
 #Profile information
 name: Brad Bazemore
-tagline: Go web developer with a love for open source and robotics
+tagline: Go web developer with a love for open source and IoT
 pic: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
@@ -29,7 +29,7 @@ education:
     school: "Georgia Southern University"
     time: "2010 - 2014"
     
-interests: ["caving", "scuba diving", "running"]
+interests: ["caving", "scuba diving", "running", "rock climbing"]
 
 #Content
 about: "Independent and self-motivated developer with experience in IoT, Robotics, Big Data and web app development.
@@ -42,6 +42,8 @@ experiences:
   - name: "Back-End Developer"
     time: "July 2017- Now"
     company: "Pendo.io"
+    description: "I help build out new features for Pendo's Go back end. 
+    These can range from simple CRUD to external integrations and time based event management."
 
   - name: "Developer"
     time: "May 2015 - Jun 2017"
@@ -93,29 +95,23 @@ projects:
     link: "https://github.com/snakes-in-the-box/blk-fish"
 
 skills:
-  - name: ROS
-    level: 90%
-    
   - name: Linux
-    level: 80%
+    level: 70%
     
   - name: Go
-    level: 70%
+    level: 80%
+   
+  - name: Google Cloud (Datastore, App Engine, etc...)
+    level: 50%
     
   - name: Python
     level: 65%
 
-  - name: Scikit-Image/OpenCV
-    level: 60%
+  - name: Firebase
+    level: 45%
 
   - name: C/C++
-    level: 60%
+    level: 50%
     
   - name: Javascript/HTML/CSS
     level: 50%
-    
-  - name: Scala
-    level: 40%
-    
-  - name: Angular2/TypeScript
-    level: 40%
