@@ -1,6 +1,185 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.1
-ignore: {}
+version: v1.10.2
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:braces:20180219':
+    - browser-sync > micromatch > braces:
+        reason: None given
+        expires: '2018-04-05T20:13:00.044Z'
+    - browser-sync > chokidar > anymatch > micromatch > braces:
+        reason: None given
+        expires: '2018-04-05T20:13:00.044Z'
+    - jpegtran-bin > bin-build > decompress > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2018-04-05T20:13:00.044Z'
+    - gulp-imagemin > imagemin-gifsicle > gifsicle > bin-build > decompress > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2018-04-05T20:13:00.045Z'
+    - gulp-imagemin > imagemin-jpegtran > jpegtran-bin > bin-build > decompress > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2018-04-05T20:13:00.045Z'
+    - gulp-imagemin > imagemin-optipng > optipng-bin > bin-build > decompress > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2018-04-05T20:13:00.045Z'
+    - jpegtran-bin > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2018-04-05T20:13:00.045Z'
+    - gulp-imagemin > imagemin-gifsicle > gifsicle > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2018-04-05T20:13:00.045Z'
+    - gulp-imagemin > imagemin-jpegtran > jpegtran-bin > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2018-04-05T20:13:00.045Z'
+    - gulp-imagemin > imagemin-optipng > optipng-bin > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2018-04-05T20:13:00.045Z'
+    - jpegtran-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2018-04-05T20:13:00.045Z'
+    - gulp-imagemin > imagemin-gifsicle > gifsicle > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2018-04-05T20:13:00.045Z'
+    - gulp-imagemin > imagemin-jpegtran > jpegtran-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2018-04-05T20:13:00.045Z'
+    - gulp-imagemin > imagemin-optipng > optipng-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2018-04-05T20:13:00.046Z'
+    - jpegtran-bin > bin-build > download > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2018-04-05T20:13:00.046Z'
+    - gulp-imagemin > imagemin-gifsicle > gifsicle > bin-build > download > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2018-04-05T20:13:00.046Z'
+    - gulp-imagemin > imagemin-jpegtran > jpegtran-bin > bin-build > download > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2018-04-05T20:13:00.046Z'
+    - gulp-imagemin > imagemin-optipng > optipng-bin > bin-build > download > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2018-04-05T20:13:00.046Z'
+    - jpegtran-bin > bin-wrapper > download > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2018-04-05T20:13:00.046Z'
+    - gulp-imagemin > imagemin-gifsicle > gifsicle > bin-wrapper > download > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2018-04-05T20:13:00.046Z'
+    - gulp-imagemin > imagemin-jpegtran > jpegtran-bin > bin-wrapper > download > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2018-04-05T20:13:00.046Z'
+    - gulp-imagemin > imagemin-optipng > optipng-bin > bin-wrapper > download > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2018-04-05T20:13:00.046Z'
+  'npm:fresh:20170908':
+    - browser-sync > serve-static > send > fresh:
+        reason: None given
+        expires: '2018-04-05T20:13:00.047Z'
+  'npm:hoek:20180212':
+    - node-sass > request > hawk > hoek:
+        reason: None given
+        expires: '2018-04-05T20:13:00.047Z'
+    - gulp-sass > node-sass > request > hawk > hoek:
+        reason: None given
+        expires: '2018-04-05T20:13:00.047Z'
+    - browser-sync > localtunnel > request > hawk > hoek:
+        reason: None given
+        expires: '2018-04-05T20:13:00.047Z'
+    - browser-sync > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        reason: None given
+        expires: '2018-04-05T20:13:00.047Z'
+    - node-sass > request > hawk > boom > hoek:
+        reason: None given
+        expires: '2018-04-05T20:13:00.047Z'
+    - gulp-sass > node-sass > request > hawk > boom > hoek:
+        reason: None given
+        expires: '2018-04-05T20:13:00.047Z'
+    - browser-sync > localtunnel > request > hawk > boom > hoek:
+        reason: None given
+        expires: '2018-04-05T20:13:00.047Z'
+    - browser-sync > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        reason: None given
+        expires: '2018-04-05T20:13:00.047Z'
+    - node-sass > request > hawk > cryptiles > boom > hoek:
+        reason: None given
+        expires: '2018-04-05T20:13:00.047Z'
+    - gulp-sass > node-sass > request > hawk > cryptiles > boom > hoek:
+        reason: None given
+        expires: '2018-04-05T20:13:00.047Z'
+    - browser-sync > localtunnel > request > hawk > cryptiles > boom > hoek:
+        reason: None given
+        expires: '2018-04-05T20:13:00.047Z'
+    - browser-sync > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        reason: None given
+        expires: '2018-04-05T20:13:00.047Z'
+    - browser-sync > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        reason: None given
+        expires: '2018-04-05T20:13:00.047Z'
+    - browser-sync > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        reason: None given
+        expires: '2018-04-05T20:13:00.047Z'
+    - node-sass > request > hawk > sntp > hoek:
+        reason: None given
+        expires: '2018-04-05T20:13:00.047Z'
+    - gulp-sass > node-sass > request > hawk > sntp > hoek:
+        reason: None given
+        expires: '2018-04-05T20:13:00.047Z'
+    - browser-sync > localtunnel > request > hawk > sntp > hoek:
+        reason: None given
+        expires: '2018-04-05T20:13:00.047Z'
+    - browser-sync > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        reason: None given
+        expires: '2018-04-05T20:13:00.048Z'
+    - browser-sync > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        reason: None given
+        expires: '2018-04-05T20:13:00.048Z'
+    - browser-sync > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        reason: None given
+        expires: '2018-04-05T20:13:00.048Z'
+  'npm:lodash:20180130':
+    - browser-sync > easy-extender > lodash:
+        reason: None given
+        expires: '2018-04-05T20:13:00.048Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > lodash:
+        reason: None given
+        expires: '2018-04-05T20:13:00.048Z'
+  'npm:mime:20170907':
+    - browser-sync > serve-static > send > mime:
+        reason: None given
+        expires: '2018-04-05T20:13:00.048Z'
+  'npm:tunnel-agent:20170305':
+    - node-sass > request > tunnel-agent:
+        reason: None given
+        expires: '2018-04-05T20:13:00.048Z'
+    - gulp-sass > node-sass > request > tunnel-agent:
+        reason: None given
+        expires: '2018-04-05T20:13:00.048Z'
+    - jpegtran-bin > bin-build > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-04-05T20:13:00.048Z'
+    - gulp-imagemin > imagemin-gifsicle > gifsicle > bin-build > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-04-05T20:13:00.048Z'
+    - gulp-imagemin > imagemin-jpegtran > jpegtran-bin > bin-build > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-04-05T20:13:00.048Z'
+    - gulp-imagemin > imagemin-optipng > optipng-bin > bin-build > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-04-05T20:13:00.048Z'
+    - jpegtran-bin > bin-wrapper > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-04-05T20:13:00.048Z'
+    - gulp-imagemin > imagemin-gifsicle > gifsicle > bin-wrapper > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-04-05T20:13:00.048Z'
+    - gulp-imagemin > imagemin-jpegtran > jpegtran-bin > bin-wrapper > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-04-05T20:13:00.048Z'
+    - gulp-imagemin > imagemin-optipng > optipng-bin > bin-wrapper > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-04-05T20:13:00.048Z'
+  'npm:ua-parser-js:20171012':
+    - browser-sync > ua-parser-js:
+        reason: None given
+        expires: '2018-04-05T20:13:00.048Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:minimatch:20160620':
