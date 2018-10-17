@@ -19,10 +19,9 @@ pic: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and pro
 #sidebar links
 email:
 phone:
-#website: bradbazemore.com #do not add http://
+# website: bradbazemore.com #do not add http://
 linkedin: bradfordbazemore
 github: sonyccd
-twitter: '@bwbaze'
 
 education:
   - degree: "BS in Computer Science"
@@ -39,8 +38,16 @@ about: "Independent and self-motivated developer with experience in IoT, Robotic
 #skill is made up of a name and level.
 
 experiences:
+  - name: "Co-Founder/Project Director"
+    time: "March 2018 - Now"
+    company: "Project Hermes"
+    description: "We are monitoring the temperatures of the coastal ocean at depth worldwide in near real-time,
+     combining satellite surface temperatures and diver measurements, using sensors ranging from precision 
+     instruments to dive computer profiles. I am the director of the seven person organization creating 
+     this cloud and IoT solution."
+
   - name: "Back-End Developer"
-    time: "July 2017- Now"
+    time: "July 2017 - Now"
     company: "Pendo.io"
     description: "I help build out new features for Pendo's Go back end. 
     These can range from simple CRUD to external integrations and time based event management."
@@ -70,6 +77,14 @@ experiences:
     Robotics, and Operating Systems."
 
 projects:
+  - name: "Hermes App"
+    description: ":ocean::thermometer: App to monitoring the temperatures of the coastal ocean at depth worldwide in near real-time"
+    link: "https://github.com/project-hermes/hermes-app"
+
+  - name: "Hermes Sensor"
+    description: ":ocean::thermometer::satellite: Hardware and software for the hermes dive sensor"
+    link: "https://github.com/project-hermes/hermes-sensor"
+
   - name: "Jack-UI"
     description: ":spades: A web based field robot management tool"
     link: "https://github.com/sonyccd/jack-ui"
@@ -77,14 +92,6 @@ projects:
   - name: "Resume"
     description: ":briefcase: A web resume built with Jekyll and hosted on GitHub. (This thing!)"
     link: "https://github.com/sonyccd/resume"
-
-  - name: "Whitney"
-    description: ":jeans: Counts cotton bolls from images to estimate crop yield"
-    link: "https://github.com/sonyccd/whitney"
-
-  - name: "Red Rover Firmware"
-    description: ":vertical_traffic_light: ROS Arduino firmware for Red Rover autonomous tractor"
-    link: "https://github.com/sonyccd/red-rover-firmware"
 
   - name: "Crop Row Follow"
     description: ":corn::video_camera::tractor: ROS node for detecting and following the rows in a row crop"
@@ -102,16 +109,10 @@ skills:
     level: 80%
    
   - name: Google Cloud (Datastore, App Engine, etc.)
-    level: 50%
-    
-  - name: Python
-    level: 65%
+    level: 60%
 
   - name: Firebase
-    level: 45%
-
-  - name: C/C++
-    level: 50%
+    level: 75%
     
   - name: Javascript/HTML/CSS
-    level: 50%
+    level: 40%
