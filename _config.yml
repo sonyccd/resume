@@ -13,12 +13,12 @@ baseurl: '/resume'
 
 #Profile information
 name: Brad Bazemore
-tagline: Go web developer with a love for open source and IoT
+tagline: 
 pic: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
-email:
-phone:
+email: bwbazemore@icloud.com
+phone: 
 # website: bradbazemore.com #do not add http://
 linkedin: bradfordbazemore
 github: sonyccd
@@ -31,13 +31,17 @@ education:
 interests: ["caving", "scuba diving", "running", "rock climbing"]
 
 #Content
-about: "Independent and self-motivated developer with experience in IoT, Robotics, Big Data and web app development.
-        Works well in teams and enjoys a stimulating and challenging work environment."
+about: "Team-oriented product manager seeking to utilize a key technical perspective leveraging APIs, machine learning and compliance experience in a customer value driven company."
 
 #For each topic below you can add more than one thing. Each entry is divided by the -. For example each entry in the
 #skill is made up of a name and level.
 
 experiences:
+  - name: "Associate Product Manager"
+    time: "April 2019 - Now"
+    company: "Pendo.io"
+    description: "Identified $5 million in ARR of new revenue streams through analysis of platform markets with minimal development cost. Initiated a cross-team collaboration to enable faster development by leveraging new platform technologies."
+
   - name: "Co-Founder/Project Director"
     time: "March 2018 - Now"
     company: "Project Hermes"
@@ -47,7 +51,7 @@ experiences:
      this cloud and IoT solution."
 
   - name: "Back-End Developer"
-    time: "July 2017 - Now"
+    time: "July 2017 - April 2019"
     company: "Pendo.io"
     description: "I help build out new features for Pendo's Go back end. 
     These can range from simple CRUD to external integrations and time based event management."
@@ -102,17 +106,11 @@ projects:
     link: "https://github.com/snakes-in-the-box/blk-fish"
 
 skills:
-  - name: Linux
-    level: 70%
+  - name: Pendo
+    level: 100%
     
-  - name: Go
-    level: 80%
+  - name: Leadership
+    level: 75%
    
   - name: Google Cloud (Datastore, App Engine, etc.)
-    level: 60%
-
-  - name: Firebase
-    level: 75%
-    
-  - name: Javascript/HTML/CSS
-    level: 40%
+    level: 70%
