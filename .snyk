@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.10.2
+version: v1.14.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:braces:20180219':
@@ -269,3 +269,18 @@ patch:
         patched: '2017-10-23T17:18:26.049Z'
     - browser-sync > socket.io > socket.io-adapter > socket.io-parser > debug:
         patched: '2017-10-23T17:18:26.049Z'
+  SNYK-JS-LODASH-567746:
+    - node-sass > lodash:
+        patched: '2020-04-30T23:26:26.537Z'
+    - browser-sync > easy-extender > lodash:
+        patched: '2020-04-30T23:26:26.537Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2020-04-30T23:26:26.537Z'
+    - gulp-sass > node-sass > lodash:
+        patched: '2020-04-30T23:26:26.537Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2020-04-30T23:26:26.537Z'
+    - gulp-sass > node-sass > sass-graph > lodash:
+        patched: '2020-04-30T23:26:26.537Z'
+    - gulp-sass > node-sass > gaze > globule > lodash:
+        patched: '2020-04-30T23:26:26.537Z'
