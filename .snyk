@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.10.2
+version: v1.12.0
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:braces:20180219':
@@ -269,3 +269,36 @@ patch:
         patched: '2017-10-23T17:18:26.049Z'
     - browser-sync > socket.io > socket.io-adapter > socket.io-parser > debug:
         patched: '2017-10-23T17:18:26.049Z'
+  'npm:hoek:20180212':
+    - node-sass > request > hawk > hoek:
+        patched: '2018-06-21T01:13:25.442Z'
+    - gulp-sass > node-sass > request > hawk > hoek:
+        patched: '2018-06-21T01:13:25.442Z'
+    - gulp-sass > node-sass > request > hawk > sntp > hoek:
+        patched: '2018-06-21T01:13:25.442Z'
+    - gulp-sass > node-sass > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-21T01:13:25.442Z'
+    - gulp-sass > node-sass > node-gyp > request > hawk > hoek:
+        patched: '2018-06-21T01:13:25.442Z'
+    - gulp-sass > node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2018-06-21T01:13:25.442Z'
+    - gulp-sass > node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2018-06-21T01:13:25.442Z'
+    - gulp-sass > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-21T01:13:25.442Z'
+    - gulp-sass > node-sass > request > hawk > boom > hoek:
+        patched: '2018-06-21T01:13:25.442Z'
+    - node-sass > request > hawk > boom > hoek:
+        patched: '2018-06-21T01:13:25.442Z'
+    - node-sass > request > hawk > sntp > hoek:
+        patched: '2018-06-21T01:13:25.442Z'
+    - node-sass > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-21T01:13:25.442Z'
+    - node-sass > node-gyp > request > hawk > hoek:
+        patched: '2018-06-21T01:13:25.442Z'
+    - node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2018-06-21T01:13:25.442Z'
+    - node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2018-06-21T01:13:25.442Z'
+    - node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-21T01:13:25.442Z'
